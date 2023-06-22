@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: white;
+    background-color: #0D0D0D;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title{
+    margin: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+h2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:#D9583B;
+    transition-duration: 0.5s;;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input{
+    font-weight: 800;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: #BF8845;
+    color: #0d0d0d;
+}
+
+::placeholder{
+    color: #0D0D0D;
+    opacity: 0.8;
+}
+
+.coffee-img{
+    width: 30vw;
+}
+
+.sbmt-btn{
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: #465973;
+    color: white;
+    cursor: pointer;
+
+}
+
+#cadastro-btn{
+    border: 2px solid #D9583B;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#cadastro-btn:hover{
+    background-color: #D9583B;
+    color:white;
+}
